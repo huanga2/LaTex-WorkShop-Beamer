@@ -8,4 +8,7 @@
 *.synctex.gz
 *.toc
 
+*.pygtex
+*.pygstyle
+
 main.pdf

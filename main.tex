@@ -4,6 +4,9 @@
 \usepackage{tikz}
 \usepackage{url}
 
+\usepackage{minted}
+\usepackage{amsmath}
+
 \title{Intro to \LaTeX}
 \author{Andrew Huang}
 
@@ -39,38 +42,12 @@
 \end{frame}
 
 \section{Why \LaTeX?}
-\begin{frame}{\insertsection}
-	\begin{figure}
-		\includegraphics[scale=0.5]{./Images/latex-difficulty-2.png}
-	\end{figure}
-\end{frame}
-
-\begin{frame}{\insertsection}{Work flow improvements}
-	\begin{figure}
-		\includegraphics[width=0.7\linewidth]{./Images/workflow.pdf}
-	\end{figure}
-\end{frame}
-
-\begin{frame}{\insertsection}{Pretty Pictures}
-	\begin{figure}
-		\includegraphics[width=0.35\linewidth]{./Images/Neighbourhood_definition2.pdf}
-		\hspace{5em}
-		\includegraphics[width=0.35\linewidth]{./Images/nicePic.png}
-	\end{figure}
-	\blfootnote{PGF -- \url{https://ctan.org/pkg/pgf?lang=en}}
-\end{frame}
-
-\begin{frame}{\insertsection}{Circuitry}
-	\begin{figure}
-		\includegraphics[width=0.7\linewidth]{./LaTex_Tikz/circuitikz.pdf}
-	\end{figure}
-	\blfootnote{circuitikz -- \url{https://ctan.org/pkg/circuitikz?lang=en
-	}}
-\end{frame}
+\input{section_1}
 
 \section{How to get started}
-\begin{frame}
-	asdf
-\end{frame}
+\input{section_2}
+
+\section{Exercise}
+\input{section_3}
 
 \end{document}
